@@ -1,0 +1,2 @@
+# README dependances
+beautifulsoup4

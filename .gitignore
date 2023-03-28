@@ -1,0 +1,25 @@
+# Virtual Environnements
+env/
+venv/
+
+# caches
+__pycache__
+.ipynb_checkpoints
+
+# Datasets
+*.tsv
+*.csv
+*.cob
+*.cbl
+*.cobol
+
+# Models
+*.bin
+
+# Builder
+*.stub
+README.md
+
+# artefact
+notebooks/cobol.py
+notebooks/codeBERT-seq2seq.html
