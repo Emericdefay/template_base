@@ -31,7 +31,7 @@ jobs:
 
       - name: Commit files
         run: |
-          git add README.md
+          git add -f README.md
           git commit -m "[Workflow] - reset README"
 
       - name: Run the script
@@ -39,7 +39,7 @@ jobs:
 
       - name: Commit files
         run: |
-          git add README.md
+          git add -f README.md
           git commit -m "[Workflow] - Build README"
 
       - name: Push changes
